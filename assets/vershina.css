@@ -1,0 +1,16 @@
+.fragment-nav{display:grid;grid-template-columns:11rem 1fr;gap:1rem;align-items:start;margin:0 0 clamp(3rem,6vw,6rem);padding-block:1.15rem;border-bottom:1px solid var(--line)}
+.project-board{margin:0 0 clamp(3rem,7vw,7rem)}.project-board img{height:auto}.project-board figcaption{margin-top:.7rem;color:var(--soft);font-size:.75rem;letter-spacing:.08em;text-transform:uppercase}
+.fragment-links{display:flex;flex-wrap:wrap;gap:.65rem}
+.fragment-links a{border:1px solid var(--line);padding:.65rem .8rem;font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;transition:background .2s ease,color .2s ease}
+.fragment-links a:hover,.fragment-links a:focus-visible{background:var(--ink);color:var(--paper)}
+.gallery figure[id]{scroll-margin-top:2rem}
+.gallery svg{display:block;width:100%;height:auto;background:#fff}
+.gallery .context-figure img{width:100%;height:auto;max-height:none;object-fit:contain}
+.gallery .three-d-view{overflow-x:auto;background:#ddd}
+.gallery .three-d-view img{max-height:none;height:auto;object-fit:initial}
+.model-story{display:grid;grid-template-columns:1.2fr .8fr;gap:clamp(2rem,5vw,6rem);align-items:center;margin-bottom:clamp(4rem,9vw,9rem)}
+.model-story figure{margin:0}.model-story figcaption{margin-top:.7rem;font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;color:var(--soft)}
+.story-copy h2,.plan-legend h2{font-size:clamp(2rem,3.5vw,3.8rem);line-height:1.05;letter-spacing:-.055em;margin:.8rem 0 1.5rem}.story-copy p,.plan-legend p{max-width:36rem;color:#353530}
+.plan-legend{grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr;gap:clamp(2rem,5vw,6rem);padding:clamp(2rem,4vw,4rem);background:#e2e1da}.plan-legend ol{margin:0;padding-left:1.5rem;columns:2;column-gap:2rem}.plan-legend li{padding:.35rem 0;break-inside:avoid}
+@media(max-width:760px){.model-story,.plan-legend{grid-template-columns:1fr}.plan-legend ol{columns:1}}
+@media(max-width:760px){.fragment-nav{grid-template-columns:1fr;gap:.8rem}.fragment-links{gap:.5rem}.fragment-links a{font-size:.65rem;padding:.55rem .6rem}}
